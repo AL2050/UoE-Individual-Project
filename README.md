@@ -2,7 +2,7 @@
 This repository contains the code written for the Individual Project :An Investigation Into Methods For Enhancing Current Computational Technologies Using Brain-Like Designs In An FPGA Architecture
 
 ## References for Source Code
-Thanks to Daniel and Jorge, whos project titled `Oscilloscope' proved to be a valuable educational resource and supplementary reference throughout the first principles approach that was taken to creating this system.
+Thanks to Daniel and Jorge, whose project titled `Oscilloscope' proved to be a valuable educational resource and supplementary reference throughout the first principles approach that was taken to creating this system.
 
 ### Cite https://github.com/Daniel-And-Jorge/6.111-Final-Project
 
