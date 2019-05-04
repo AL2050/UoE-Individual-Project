@@ -4,16 +4,17 @@ This repository contains the code written for my Individual Project: An Investig
 ## References for Source Code
 Thanks to Daniel and Jorge, whose project titled `Oscilloscope' proved to be a valuable educational resource and supplementary reference throughout the first principles approach that was taken to creating aspects of this system stated below.
 
-### Cite https://github.com/Daniel-And-Jorge/6.111-Final-Project
+### Cite:
+Daniel-And-Jorge (2017) 6.111-Final-Project, Available at: https://github.com/Daniel-And-Jorge (Accessed: 3/5/19).
 
 ## What ideas came in useful from Daniel-and-Jorge's code:
 ### Data_Collection Subsystem
-The idea of using a ring buffer to store and send data. Prior to discovering this optimal sample storage system approach, I was working towards an AXI-Lite interface with the XADC through a MicroBlaze Soft Core, and using a Memory Block Generator. However, this is a High-Level-Synthesis approach, and with limited FPGA development experience, this proved to be too complicated. The ring-buffer approach is straight forward and can be set up to transfer data in a First-In-First-Out (FIFO) fashion (or one-to-one), which makes it easy to calibrate the system timing requirements between the Data_Collection and VGA_Display_Renderer subsystems.
+Prior to discovering this optimal sample storage system approach, I was working towards an AXI-Lite interface with the XADC through a MicroBlaze Soft Core, and using a Memory Block Generator. However, this is a High-Level-Synthesis approach, and with limited FPGA development experience, this proved to be too complicated. The ring-buffer approach is straight forward and can be set up to transfer data in a First-In-First-Out (FIFO) fashion (or one-to-one), which makes it easy to calibrate the system timing requirements between the Data_Collection and VGA_Display_Renderer subsystems.
 
 ### VGA_Display_Renderer Subsystem
 My initial concept was to use a debug core, to save the requirement for extra hardware in the system, and to derive a software-based solution for viewing the output from the Artificial Neural Network, using Vivado's Logic Analyzer with the High-Level System that would show us the output from the system, in a timing-diagram format. However, I predicted that for an Artificial Neural Network the analog, biological nature of neural signals would not be possible to view. There I considered the need for a direct visual output to be seen. This motivated the idea of a VGA Display as the output from the system.
 
-Daniel and Jorge's Oscilloscope project in conjunction with Will Green's article at `https://timetoexplore.net/blog/arty-fpga-vga-verilog-01', was incremental in helping me to fully understand and implement the VGA_Display Renderer. These resources enabled me to devise a way for communicating with the VGA Display, and devising a method for controlling pixel switching on each frame render.
+Daniel and Jorge's Oscilloscope project in conjunction with Will Green's article at `https://timetoexplore.net/blog/arty-fpga-vga-verilog-01', was incremental in helping me to fully understand and implement the VGA_Display Renderer. These resources enabled me to devise a way for communicating with the VGA Display, and implement a method for controlling pixel switching on each frame render.
 
 ## Summary for use of the above references
 In the second year at the University of Exeter, during semester 2, as Electronic Engineers, we learnt fundamental Verilog code to create digital logic gates and simple test benches. In order to achieve a system at this level in this project, I required further resources to educate myself and devise solutions that would fulfil the set objectives. The Oscilloscope project proved to be instrumental in advancing my knowledge to fully understand and implement a system at this level.
