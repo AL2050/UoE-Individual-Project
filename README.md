@@ -13,7 +13,7 @@ The idea of using a ring buffer to store and send data. Prior to discovering thi
 ### VGA_Display_Renderer Subsystem
 Learning in conjunction with Will Green's article at `https://timetoexplore.net/blog/arty-fpga-vga-verilog-01', how to devise a method for communicating with the VGA Display, and devising a method for controlling pixel switching on each frame render.
 
-
+## Summary for use of the above references
 In the second year at the University of Exeter, during semester 2, as Electronic Engineers, we learnt fundamental Verilog code to create digital logic gates and simple test benches. In order to achieve a system at this level in this project, I required further resources to educate myself and devise solutions that would fulfil the set objectives. The Oscilloscope project proved to be instrumental in advancing my knowledge to fully understand and implement a system at this level.
 
 ## Skills I have gained and enhanced from this project
