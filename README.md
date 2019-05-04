@@ -1,5 +1,5 @@
 # UoE-Individual-Project
-This repository contains the code written for the Individual Project :An Investigation Into Methods For Enhancing Current Computational Technologies Using Brain-Like Designs In An FPGA Architecture
+This repository contains the code written for my Individual Project: An Investigation Into Methods For Enhancing Current Computational Technologies Using Brain-Like Designs In An FPGA Architecture
 
 ## References for Source Code
 Thanks to Daniel and Jorge, whose project titled `Oscilloscope' proved to be a valuable educational resource and supplementary reference throughout the first principles approach that was taken to creating this system.
