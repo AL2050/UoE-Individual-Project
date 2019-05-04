@@ -8,7 +8,7 @@ Thanks to Daniel and Jorge, whose project titled `Oscilloscope' proved to be a v
 
 ## What ideas came in useful from Daniel-and-Jorge's code:
 ### Data_Collection Subsystem
-The idea of using a ring buffer to store and send data. Prior to discovering this optimal sample storage system approach, I was working towards either an AXI-Lite interface with the XADC through a MicroBlaze Soft Core, and using a Memory Block Generator. However, this is a High-Level-Synthesis approach, and with limited FPGA development experience, this proved to be too complicated. The ring-buffer approach is straight forward and can be set up to transfer data in a First-In-First-Out (FIFO) fashion.
+The idea of using a ring buffer to store and send data. Prior to discovering this optimal sample storage system approach, I was working towards either an AXI-Lite interface with the XADC through a MicroBlaze Soft Core, and using a Memory Block Generator. However, this is a High-Level-Synthesis approach, and with limited FPGA development experience, this proved to be too complicated. The ring-buffer approach is straight forward and can be set up to transfer data in a First-In-First-Out (FIFO) fashion, which makes it easy to calibrate system timing requirements between the Data_Collection and VGA_Display_Renderer subsystems.
 
 ### VGA_Display_Renderer Subsystem
 Learning in conjunction with Will Green's article at `https://timetoexplore.net/blog/arty-fpga-vga-verilog-01', how to devise a method for communicating with the VGA Display, and devising a method for controlling pixel switching on each frame render.
