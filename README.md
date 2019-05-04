@@ -5,11 +5,11 @@ This repository contains the code written for my Individual Project: An Investig
 Thanks to Daniel and Jorge, whose project titled `Oscilloscope' proved to be a valuable educational resource and supplementary reference throughout the first principles approach that was taken to creating aspects of this system stated below.
 
 ### Cite:
-Daniel-And-Jorge (2017) 6.111-Final-Project, Available at: https://github.com/Daniel-And-Jorge (Accessed: 3/5/19).
+Daniel-And-Jorge (2017) 6.111-Final-Project, Available at: https://github.com/Daniel-And-Jorge (Accessed: 4/5/19).
 
 ## What ideas came in useful from Daniel-and-Jorge's code:
 ### Data_Collection Subsystem
-Prior to discovering this optimal sample storage system approach, I was working towards an AXI-Lite interface with the XADC through a MicroBlaze Soft Core, and using a Memory Block Generator. However, this is a High-Level-Synthesis approach, and with limited FPGA development experience, this proved to be too complicated. The ring-buffer approach is straight forward and can be set up to transfer data in a First-In-First-Out (FIFO) fashion (or one-to-one), which makes it easy to calibrate the system timing requirements between the Data_Collection and VGA_Display_Renderer subsystems.
+I was working towards an AXI-Lite interface with the XADC through a MicroBlaze Soft Core, and using a Memory Block Generator. However, this is a High-Level-Synthesis approach, and with limited FPGA development experience, this proved to be too complicated. The ring-buffer approach is straight forward and can be set up to transfer data in a First-In-First-Out (FIFO) fashion (or one-to-one), which makes it easy to calibrate the system timing requirements between the Data_Collection and VGA_Display_Renderer subsystems, and makes this the optimal sample storage and send approach.
 
 ### VGA_Display_Renderer Subsystem
 My initial concept was to use a debug core, to save the requirement for extra hardware in the system, and to derive a software-based solution for viewing the output from the Artificial Neural Network, using Vivado's Logic Analyzer with the High-Level System that would show us the output from the system, in a timing-diagram format. However, I predicted that for an Artificial Neural Network the analog, biological nature of neural signals would not be possible to view. There I considered the need for a direct visual output to be seen. This motivated the idea of a VGA Display as the output from the system.
