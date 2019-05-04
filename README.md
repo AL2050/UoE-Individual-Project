@@ -7,9 +7,9 @@ Thanks to Daniel and Jorge, whos project titled `Oscilloscope' proved to be a va
 
 ### Cite https://github.com/Daniel-And-Jorge/6.111-Final-Project
 
-What ideas came in useful from Daniel-and-Jorge's code:
-## Data_Collection Subsystem
+##What ideas came in useful from Daniel-and-Jorge's code:
+### Data_Collection Subsystem
 The idea of using a ring buffer to store and send data.
 
-## VGA_Display_Renderer Subsystem
+### VGA_Display_Renderer Subsystem
 Learning in conjunction with Will Green's article at `https://timetoexplore.net/blog/arty-fpga-vga-verilog-01', how to devise a method for communicating with the VGA Display, and devising a method for controlling pixel switching on each frame render.
