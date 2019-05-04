@@ -19,7 +19,7 @@ My initial concept was to use a debug core, to save the requirement for extra ha
 Daniel and Jorge's Oscilloscope project in conjunction with Will Green's article at `https://timetoexplore.net/blog/arty-fpga-vga-verilog-01', was incremental in helping me to fully understand and implement the VGA_Display Renderer. These resources enabled me to devise a way for communicating with the VGA Display, and implement a method for controlling pixel switching on each frame render.
 
 ## Summary for use of the above references
-In the second year at the University of Exeter, during semester 2, as Electronic Engineers, we learnt fundamental Verilog code to create digital logic gates and simple test benches. In order to achieve a system at this level in this project, I required further resources to educate myself and devise solutions that would fulfil the set objectives. The Oscilloscope project proved to be instrumental in advancing my knowledge to fully understand and implement a system at this level.
+In the second year at the University of Exeter, during semester 2, as Electronic Engineers, we learnt fundamental Verilog code to create digital logic gates and simple test benches. In order to achieve a system at this level for this project, I required further resources to educate myself and devise solutions that would fulfil the set objectives. The Oscilloscope project proved to be instrumental in advancing my knowledge to fully understand and implement a system of this magnitude.
 
 ## Skills I have gained and enhanced from this project
 - Learning to develop code with the hardware in mind:
