@@ -23,8 +23,8 @@ In the second year at the University of Exeter, during semester 2, as Electronic
 
 ## Skills I have gained and enhanced from this project
 - Learning to develop code with the hardware in mind:
-  - Coding in an FPGA is not the same as coding a program in software in lanugages such as C++ or Python. With Register-Transfer-Languages such as Verilog and VHDL, you are developing code to utilise registers, switching matrices and Lookup Tables (LUTs) in the FPGA. You are essentially coding architecture by definition. This was a steep learning curve for me. It was very rewarding once I got the hang of this approach to coding a system.
-  
+  - Coding in an FPGA is not the same as coding a program in software in lanugages such as C++ or Python. With Register-Transfer-Languages such as Verilog and VHDL, you are developing code to utilise registers, switching matrices and Lookup Tables (LUTs) in the FPGA. You are essentially coding architecture by definition. This was a steep learning curve for me. It was very rewarding to have achieved, new coding and project management with a successful outcome.
+ 
 - Understanding and manipulating a system on a hardware level:
   - FPGA technologies have taught me to consider a system on a component level. How do signals pass through the componenets of a system, and how can this be optimised? One major factor that must be understood and optimised in an FPGA is timing. The clock signal is not an ideal square-wave, but a sloped version. The sloped are called the rising and falling edges. These must be calibrated. Also, slack timing must be calibrated, so that signals reach the required locations at the right times so that the system behaves as expected, operating with the correct logic at the correct time.
   
