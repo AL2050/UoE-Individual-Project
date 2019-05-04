@@ -11,7 +11,7 @@ Daniel-And-Jorge (2017) 6.111-Final-Project, Available at: https://github.com/Da
 ### Data_Collection Subsystem
 I was working towards an AXI-Lite interface with the XADC through a MicroBlaze Soft Core, and using a Memory Block Generator. However, this is a High-Level-Synthesis approach, and with limited FPGA and Verilog development experience, I had no context on where to look to solve errors and warnings, so as to successfully debug the system design.
 
-The ring-buffer approach is straight forward and can be set up to transfer data in a First-In-First-Out (FIFO) fashion (or one-to-one), which makes it easy to calibrate the system timing requirements between the Data_Collection and VGA_Display_Renderer subsystems, making this the optimal sample storage and send approach.
+The ring-buffer approach is straight forward and can be set up to transfer data, in a First-In-First-Out (FIFO) fashion (or one-to-one), which makes it easy to calibrate the system timing requirements between the Data_Collection and VGA_Display_Renderer subsystems, making this the optimal sample storage and send approach.
 
 ### VGA_Display_Renderer Subsystem
 My initial concept was to use a debug core, to save the requirement for extra hardware in the system, and to derive a software-based solution for viewing the output from the Artificial Neural Network, using Vivado's Logic Analyzer with the High-Level System that would show us the output from the system, in a timing-diagram format. However, I predicted that for an Artificial Neural Network the analog, biological nature of neural signals would not be possible to view. There I considered the need for a direct visual output to be seen. This motivated the idea of a VGA Display as the output from the system.
