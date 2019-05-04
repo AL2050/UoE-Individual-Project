@@ -6,7 +6,7 @@ Thanks to Daniel and Jorge, whos project titled `Oscilloscope' proved to be a va
 
 ### Cite https://github.com/Daniel-And-Jorge/6.111-Final-Project
 
-##What ideas came in useful from Daniel-and-Jorge's code:
+## What ideas came in useful from Daniel-and-Jorge's code:
 ### Data_Collection Subsystem
 The idea of using a ring buffer to store and send data.
 
