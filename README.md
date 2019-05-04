@@ -9,7 +9,10 @@ Thanks to Daniel and Jorge, whose project titled `Oscilloscope' proved to be a v
 In the second year at the University of Exeter, during semester 2, as Electronic Engineers, we learnt fundamental Verilog code to create digital logic gates and simple test benches. In order to achieve a system of this level in this project, I required further resources to educate myself and devise a solutions that would fulfil the set objectives. The Oscilloscope project proved to be instrumental in advancing my knowledge to fully understand and implement a system at this level.
 
 ## Skills I have gained from this project
-- Learning to develop code with the hardware in mind.
+- Learning to develop code with the hardware in mind:
+  - Coding in an FPGA is not the same as coding a program in software in lanugages such as C++ or Python. With Register-Transfer-Languages such as Verilog and VHDL, you are developing code to utilise registers, switching matrices and Lookup Tables (LUTs) in the FPGA. You are essentially coding architecture by definition. This was a steep learning curve for me. It was very rewarding once I got the hang of this approach to coding a system.
+  
+- 
 
 ## What ideas came in useful from Daniel-and-Jorge's code:
 ### Data_Collection Subsystem
